@@ -34,8 +34,8 @@ function wrapper(plugin_info) {
     /*global L, layerChooser*/
     const osmAttribution = `Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, 
 <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>"`;
-    const seznamAttribution = `<a href='http://mapy.cz><img src="http://mapy.cz/img/logo-small.svg"/></a> © Seznam.cz,a.s, 
-© Přispěvatelé <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a>,
+    const seznamAttribution = `<a href="http://mapy.cz"><img src="http://mapy.cz/img/logo-small.svg"/></a>© Seznam.cz,a.s, 
+© Přispěvatelé <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, 
 © NASA`;
 
     const PNKLayer = L.tileLayer('http://tiles.prahounakole.cz/{z}/{x}/{y}.png', {
