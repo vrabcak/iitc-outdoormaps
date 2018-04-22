@@ -62,7 +62,7 @@ function wrapper(plugin_info) {
       maxZoom: 22
     });
 
-    const mapyCzHikingLayer = L.tileLayer('http://m{s}.mapserver.mapy.cz/turist_trail_bike-m/{z}-{x}-{y}', {
+    const mapyCzHikingLayer = L.tileLayer('http://m{s}.mapserver.mapy.cz/turist-m/{z}-{x}-{y}', {
       attribution: seznamAttribution,
       subdomains: '1234',
       maxNativeZoom: 18,
