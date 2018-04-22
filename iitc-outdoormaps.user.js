@@ -2,7 +2,7 @@
 // @id             iitc-plugin-outdoormaps@vrabcak
 // @name           IITC plugin: various outdoor maps tiles
 // @category       Map Tiles
-// @version        0.1.0
+// @version        0.1.1
 // @namespace      https://github.com/vrabcak/iitc-outdoormaps
 // @updateURL      
 // @downloadURL    
